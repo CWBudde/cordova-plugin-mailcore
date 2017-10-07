@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-mailcore" version="0.0.1">
+    
+  <name>Mailcore</name>
+	<description>Cordova plugin that exposes the interface of MailCore</description>	
+  <license>Apache 2.0</license>
+	<keywords>cordova,smtp,imap,mailcore,email</keywords>
+	<repo>https://github.com/CWBudde/cordova-plugin-mailcore.git</repo>
+  <js-module src="www/mailcore.js" name="mailcore">
+    <clobbers target="mailcore" />
+  </js-module>
+  <engines>
+    <engine name="cordova" version=">=6.0.0" />
+    <engine name="cordova-ios" version=">=4.0.0" />
+  </engines>
+  <platform name="ios">
+    <config-file target="config.xml" parent="/widget">
+      <feature name="MailCore">
+        <param name="ios-package" value="CDVMailCore" />
+      </feature>
+    </config-file>
+    <header-file src="src/ios/MailCore.h"/>
+    <source-file src="src/ios/MailCore.m"/>
+    <framework src="CFNetwork.framework" />
+  </platform>
+</plugin>

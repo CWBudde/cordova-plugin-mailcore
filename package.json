@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-mailcore",
+  "version": "0.0.1",
+  "description": "Cordova plugin that exposes the interface of MailCore",
+  "cordova": {
+		"id": "cordova-plugin-mailcore",
+	  "platforms":[
+			"ios"
+		]
+	},
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/CWBudde/cordova-plugin-mailcore.git"
+  },
+  "keywords": [
+    "cordova",
+    "smtp",
+    "imap",
+    "mailcore",
+    "email",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Christian-W.Budde <CWBudde@pcjv.de>",
+  "license": "Apache-2.0",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.0.0"
+    },
+    {
+      "name": "cordova-ios",
+      "version": ">=4.0.0"
+    }
+  ]
+}

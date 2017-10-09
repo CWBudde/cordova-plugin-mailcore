@@ -29,7 +29,7 @@
 	NSString *toEmail = [options objectForKey:@"toEmail"];
 	NSString *bccEmail = [options objectForKey:@"bccEmail"];
 	NSString *smtpServer = [options objectForKey:@"smtpServer"];
-	NSString *smtpPort = [options objectForKey:@"smtpPort"];
+	int smtpPort = [[options objectForKey:@"smtpPort"] intValue];
 	NSString *smtpUsername = [options objectForKey:@"smtpUserName"];
 	NSString *smtpPassword = [options objectForKey:@"smtpPassword"];
 	NSString *textBody = [options objectForKey:@"textBody"];

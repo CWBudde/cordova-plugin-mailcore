@@ -1,6 +1,6 @@
 # Cordova MailCore Plugin
 
-This is a work-in-progress repository to expose MailCore as Cordova plugin some day.
+This is a work-in-progress repository to expose MailCore as Cordova plugin some day. At the moment there is no real need for it as the other [Cordova MailCore2 Plugin](https://github.com/CWBudde/cordova-plugin-mailcore2/) seems to be working satisfying. However, I'll leave it here for anyone who wants to use this as base.
 
 ## Using
 
